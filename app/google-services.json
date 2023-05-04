@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "414153596824",
+    "project_id": "my-uza-uza-app",
+    "storage_bucket": "my-uza-uza-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414153596824:android:f3b6f341aa97dfad8795ed",
+        "android_client_info": {
+          "package_name": "com.example.theapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414153596824-sjrm45eoh8i6t72433r2vip7tgek9eum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjPYBlQv_6nZH3yk-qunQnQ9j4Kg07zZ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414153596824-sjrm45eoh8i6t72433r2vip7tgek9eum.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
