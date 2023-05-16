@@ -10,7 +10,7 @@ import androidx.cardview.widget.CardView
 
 class MainActivity : AppCompatActivity() {
     private var cardOne : CardView ?= null
-    var cardTwo : CardView ?= null
+    private var cardTwo : CardView ?= null
 
     var cardFour : CardView ?= null
 

@@ -16,7 +16,8 @@ class CustomAdapter(var context: Context, var data:ArrayList<Product>):BaseAdapt
         var mTxtPrice:TextView
          var mTxtLocation:TextView
         var mImgPhoto:ImageView
-        init {
+
+               init {
             this.mTxtName = row?.findViewById(R.id.mTvName) as TextView
             this.mTxtPhoneNumber = row?.findViewById(R.id.mTvPhoneNumber) as TextView
             this.mTxtLocation = row?.findViewById(R.id.mTvLocation) as TextView

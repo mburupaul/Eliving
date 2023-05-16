@@ -9,7 +9,10 @@
     android:weightSum="7"
     tools:context=".MainActivity">
 
-    <LinearLayout
+
+    <!--Creating the menu grid button-->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
@@ -19,23 +22,47 @@
         android:padding="12dp">
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="167dp"
             android:layout_height="wrap_content"
             android:text="Dashboard"
             android:textColor="#fafafa"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintEnd_toStartOf="@+id/imageView5"
+            app:layout_constraintHorizontal_bias="0.141"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.581" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="119dp"
+            android:layout_height="101dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.509"
+            app:srcCompat="@drawable/img_2" />
 
         <TextView
-            android:layout_width="match_parent"
+            android:id="@+id/textView2"
+            android:layout_width="137dp"
             android:layout_height="wrap_content"
+
             android:text="Welcome!"
             android:textColor="#fafafa"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.058"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.72" />
 
-    </LinearLayout>
-
-
-    <!--Creating the menu grid button-->
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -67,6 +94,14 @@
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:gravity="center_horizontal"
+                        android:text="ARE YOU A HOUSE OWNER"
+                        android:textAlignment="center" />
 
                     <ImageView
                         android:layout_width="match_parent"
@@ -101,6 +136,13 @@
                     android:gravity="center"
                     android:orientation="vertical">
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:text="ARE YOU LOOKING FOR A HOME"
+                        android:textAlignment="center" />
+
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -123,6 +165,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:foreground="@drawable/h1"
             android:padding="16dp"
             android:weightSum="2">
 
